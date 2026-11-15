@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "terramod",
+  "version": "1.0.0",
+  "name": "TerraMod - Minérios da Terra",
+  "description": "Adiciona minérios essenciais e realistas para progressão técnica.",
+  "authors": ["Seu Nome"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/terramod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.terramod.TerraMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
